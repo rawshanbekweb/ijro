@@ -1,0 +1,399 @@
+{
+  "app": {
+    "name": "Ижро тизими"
+  },
+  "auth": {
+    "login": {
+      "title": "Ижро тизимига хуш келибсиз",
+      "description": "Топшириқлар қоғозда ва Telegram чатларида қолмайди — барчаси бир жойда",
+      "loginLabel": "Логин",
+      "parolLabel": "Парол",
+      "loginPlaceholder": "Логинингизни киритинг",
+      "parolPlaceholder": "Паролингизни киритинг",
+      "showPassword": "Паролни кўрсатиш",
+      "hidePassword": "Паролни яшириш",
+      "submit": "Кириш",
+      "submitting": "Кутинг...",
+      "errorInvalid": "Логин ёки парол нотўғри",
+      "errorInactive": "Ҳисобингиз фаол эмас. Администраторга мурожаат қилинг",
+      "errorGeneric": "Хатолик юз берди. Қайта уриниб кўринг",
+      "noAccount": "Ҳисобингиз йўқми? Администраторингизга мурожаат қилинг",
+      "validation": {
+        "loginMin": "Логин камида 3 та белгидан иборат бўлиши керак",
+        "parolMin": "Парол камида 6 та белгидан иборат бўлиши керак"
+      }
+    }
+  },
+  "common": {
+    "loading": "Юкланмоқда...",
+    "cancel": "Бекор қилиш",
+    "save": "Сақлаш",
+    "send": "Юбориш",
+    "sending": "Юборилмоқда...",
+    "edit": "Таҳрирлаш",
+    "back": "Ортга",
+    "loadError": "Маълумотларни юклашда хатолик юз берди",
+    "actionError": "Амални бажаришда хатолик юз берди",
+    "noResults": "Натижа топилмади",
+    "comingSoon": "Бу имконият тез орада қўшилади"
+  },
+  "dashboard": {
+    "greeting": "Салом, {{name}}!",
+    "openTasksCount": "Сизда {{count}} та очиқ топшириқ",
+    "loadError": "Маълумотларни юклашда хатолик юз берди",
+    "needsAttention": "Диққат талаб қилади",
+    "needsAttentionEmpty": "Диққат талаб қиладиган топшириқлар йўқ",
+    "onTrack": "Режадаги ишлар",
+    "onTrackEmpty": "Режадаги ишлар йўқ",
+    "pendingApproval": "Тасдиқ кутилмоқда",
+    "pendingApprovalEmpty": "Тасдиқ кутилаётган топшириқлар йўқ",
+    "performanceBanner": "Бу ойда ўз вақтида бажарилган: {{percent}}",
+    "title": "Бошқарув панели",
+    "stats": {
+      "pendingApproval": "Тасдиқ кутмоқда",
+      "overdue": "Муддати ўтган",
+      "dueToday": "Бугун тугайди",
+      "onTimeCompletion": "Ўз вақтида бажарилган %"
+    },
+    "overdueList": {
+      "title": "Муддати ўтган топшириқлар",
+      "empty": "Муддати ўтган топшириқлар йўқ",
+      "remind": "Эслатма юбориш"
+    },
+    "pendingApprovalList": {
+      "title": "Тасдиқ кутмоқда",
+      "empty": "Тасдиқ кутаётган топшириқлар йўқ",
+      "approve": "Қабул қилиш",
+      "reject": "Қайтариш"
+    },
+    "rejectModal": {
+      "title": "Топшириқни қайтариш",
+      "reasonLabel": "Қайтариш сабаби",
+      "reasonPlaceholder": "Сабабни киритинг...",
+      "reasonRequired": "Сабаб киритилиши шарт",
+      "cancel": "Бекор қилиш",
+      "submit": "Қайтариш",
+      "submitting": "Юборилмоқда..."
+    },
+    "sohaRating": {
+      "title": "Соҳалар рейтинги",
+      "empty": "Ҳозирча соҳалар йўқ",
+      "bajarilganCount": "Бажарилган: {{count}}",
+      "kechiktirilganCount": "Кечиктирилган: {{count}}"
+    },
+    "taskGroup": {
+      "empty": "Топшириқлар йўқ"
+    },
+    "taskRow": {
+      "open": "Очиш"
+    },
+    "status": {
+      "YASHIL": "Режада",
+      "SARIQ": "Диққат талаб қилади",
+      "QIZIL": "Муддати ўтган",
+      "KOK": "Жараёнда",
+      "KULRANG": "Бекор қилинган"
+    },
+    "modal": {
+      "close": "Ёпиш"
+    }
+  },
+  "nazorat": {
+    "dashboard": {
+      "title": "Назорат панели"
+    },
+    "stats": {
+      "kuzatuvda": "Кузатувда",
+      "tekshiruvKutmoqda": "Текшириш кутмоқда",
+      "menBergan": "Мен берган"
+    },
+    "delegationSummary": {
+      "title": "Менинг ҳуқуқларим",
+      "sohaCount": "{{count}} та соҳа",
+      "maxMuhimlik": "Максимал муҳимлик",
+      "maxMuddat": "Максимал муддат",
+      "maxMuddatValue": "{{count}} кун",
+      "obyektRuxsat": "Объект бўйича топшириқ бериш ҳуқуқи",
+      "obyektRuxsatBor": "Бор",
+      "obyektRuxsatYoq": "Йўқ",
+      "empty": "Сизга ҳали ҳуқуқ берилмаган",
+      "loadError": "Маълумотларни юклашда хатолик юз берди",
+      "sohalar": "Рухсат этилган соҳалар"
+    },
+    "supervisedOverdueList": {
+      "title": "Назоратдаги муддати ўтган топшириқлар",
+      "empty": "Назоратдаги муддати ўтган топшириқлар йўқ",
+      "remind": "Эслатма",
+      "escalate": "Эскалация"
+    },
+    "myIssuedTaskList": {
+      "title": "Мен берган топшириқлар",
+      "empty": "Сиз берган топшириқлар йўқ"
+    },
+    "eskalatsiyaModal": {
+      "title": "Топшириқни эскалация қилиш",
+      "izohLabel": "Изоҳ",
+      "izohPlaceholder": "Изоҳни киритинг...",
+      "izohRequired": "Изоҳ киритилиши шарт",
+      "cancel": "Бекор қилиш",
+      "submit": "Юбориш",
+      "submitting": "Юборилмоқда...",
+      "error": "Амални бажаришда хатолик юз берди"
+    },
+    "taskActions": {
+      "escalate": "Эскалация"
+    },
+    "taskHeader": {
+      "yaratuvchi": "Яратувчи"
+    },
+    "createTaskAlert": "Сиз {{name}} номидан топшириқ бермоқдасиз",
+    "shoshilinchLocked": "Фақат суперадмин учун"
+  },
+  "delegation": {
+    "page": {
+      "title": "Назорат ҳуқуқлари",
+      "edit": "Таҳрирлаш",
+      "assign": "Ҳуқуқ бериш",
+      "sohaCount": "{{count}} та соҳа",
+      "maxMuhimlik": "Максимал муҳимлик",
+      "maxMuddat": "{{count}} кун",
+      "noDelegation": "Ҳуқуқ берилмаган",
+      "empty": "НАЗОРАТ фойдаланувчилар топилмади",
+      "loadError": "Маълумотларни юклашда хатолик юз берди"
+    },
+    "form": {
+      "titleCreate": "Назорат ҳуқуқини белгилаш",
+      "sohalarLabel": "Рухсат этилган соҳалар",
+      "sohaSearchPlaceholder": "Соҳани қидиринг...",
+      "sohalarRequired": "Камида битта соҳани танланг",
+      "muhimlikLabel": "Максимал муҳимлик",
+      "muhimlik": {
+        "ODDIY": "Оддий",
+        "MUHIM": "Муҳим"
+      },
+      "muddatLabel": "Максимал муддат (кун)",
+      "obyektRuxsatLabel": "Объект бўйича топшириқ бериш ҳуқуқи",
+      "cancel": "Бекор қилиш",
+      "save": "Сақлаш",
+      "saving": "Сақланмоқда...",
+      "error": "Сақлашда хатолик юз берди"
+    }
+  },
+  "roles": {
+    "SUPERADMIN": "Суперадмин",
+    "NAZORAT": "Назорат",
+    "BAJARUVCHI": "Бажарувчи"
+  },
+  "layout": {
+    "nav": {
+      "home": "Бош саҳифа",
+      "allTasks": "Барча топшириқлар",
+      "myTasks": "Менинг топшириқларим",
+      "sohalar": "Соҳалар ва ходимлар",
+      "nazoratHuquqlari": "Назорат ҳуқуқлари",
+      "newTask": "Янги топшириқ"
+    },
+    "sidebar": {
+      "expand": "Менюни очиш",
+      "collapse": "Менюни йиғиш"
+    },
+    "topbar": {
+      "notifications": "Билдиришномалар",
+      "userMenu": "Фойдаланувчи менюси",
+      "profile": "Профил",
+      "logout": "Чиқиш"
+    },
+    "languageSwitcher": "Интерфейс тили"
+  },
+  "notFound": {
+    "title": "Саҳифа топилмади",
+    "description": "Сиз излаган саҳифа мавжуд эмас ёки бошқа манзилга кўчирилган",
+    "home": "Бош саҳифага қайтиш"
+  },
+  "tasks": {
+    "status": {
+      "YARATILDI": "Яратилди",
+      "YUBORILDI": "Юборилди",
+      "TANISHILDI": "Танишилди",
+      "JARAYONDA": "Жараёнда",
+      "TASDIQ_KUTILMOQDA": "Тасдиқ кутилмоқда",
+      "QAYTARILDI": "Қайтарилди",
+      "QABUL_QILINDI": "Қабул қилинди",
+      "BEKOR_QILINDI": "Бекор қилинди"
+    },
+    "muhimlik": {
+      "ODDIY": "Оддий",
+      "MUHIM": "Муҳим",
+      "SHOSHILINCH": "Шошилинч"
+    },
+    "list": {
+      "title": "Топшириқлар",
+      "filters": "Фильтрлар",
+      "clear": "Тозалаш",
+      "statusLabel": "Ҳолат",
+      "allStatuses": "Барча ҳолатлар",
+      "statusEmpty": "Ҳолат топилмади",
+      "muhimlikLabel": "Муҳимлик",
+      "allMuhimlik": "Барча даражалар",
+      "muhimlikEmpty": "Муҳимлик топилмади",
+      "sohaLabel": "Соҳа",
+      "allSohalar": "Барча соҳалар",
+      "bajaruvchiLabel": "Бажарувчи",
+      "selectXodim": "Ходимни танланг",
+      "selectSohaFirst": "Аввал соҳани танланг",
+      "allTasks": "Барча топшириқлар",
+      "empty": "Топшириқлар топилмади"
+    },
+    "select": {
+      "sohaPlaceholder": "Соҳани қидиринг...",
+      "sohaEmpty": "Соҳа топилмади",
+      "xodimPlaceholder": "Ходимни қидиринг...",
+      "noBajaruvchi": "Бу соҳада бажарувчи йўқ",
+      "free": "бўш",
+      "activeCount": "{{count}} фаол"
+    },
+    "create": {
+      "sarlavha": "Сарлавҳа",
+      "sarlavhaPlaceholder": "Топшириқ сарлавҳаси",
+      "tavsif": "Тавсиф",
+      "tavsifPlaceholder": "Топшириқ тавсифи (ихтиёрий)",
+      "subtasks": "Кичик вазифалар",
+      "subtaskPlaceholder": "Банд матни",
+      "addSubtask": "Банд қўшиш",
+      "removeSubtask": "Бандни ўчириш",
+      "muddatSana": "Муддат санаси",
+      "muddatVaqt": "Муддат вақти",
+      "muhimlik": "Муҳимлик даражаси",
+      "saveDraft": "Қоралама сақлаш",
+      "submit": "Топшириқни юбориш",
+      "error": "Топшириқни яратишда хатолик юз берди",
+      "validation": {
+        "sarlavhaMin": "Сарлавҳа камида 5 та белгидан иборат бўлиши керак",
+        "sohaRequired": "Соҳани танланг",
+        "sohaInvalid": "Соҳа нотўғри танланган",
+        "bajaruvchiRequired": "Бажарувчини танланг",
+        "bajaruvchiInvalid": "Бажарувчи нотўғри танланган",
+        "muddatRequired": "Муддат санасини киритинг",
+        "muddatPast": "Муддат бугундан олдин бўлиши мумкин эмас",
+        "vaqtFormat": "Вақт СС:ДД форматида бўлиши керак"
+      }
+    },
+    "detail": {
+      "notFound": "Топшириқ топилмади",
+      "forbidden": "Бу топшириқ сизга тегишли эмас",
+      "loadError": "Топшириқни юклашда хатолик юз берди",
+      "muallif": "Муаллиф",
+      "muddat": "Муддат",
+      "tanishilgan": "Танишилган",
+      "notTanishilgan": "Танишилмаган",
+      "qaytarishSababi": "Қайтариш сабаби"
+    },
+    "subtasks": {
+      "title": "Кичик вазифалар",
+      "empty": "Кичик вазифалар йўқ",
+      "updateError": "Кичик вазифани янгилаб бўлмади"
+    },
+    "comments": {
+      "title": "Изоҳлар",
+      "loadError": "Изоҳларни юклашда хатолик юз берди",
+      "empty": "Ҳозирча изоҳлар йўқ",
+      "label": "Изоҳ қолдириш",
+      "placeholder": "Изоҳингизни ёзинг...",
+      "required": "Изоҳ бўш бўлиши мумкин эмас",
+      "sendError": "Изоҳни юборишда хатолик юз берди"
+    },
+    "history": {
+      "title": "Тарих",
+      "loadError": "Тарихни юклашда хатолик юз берди",
+      "empty": "Тарих ёзувлари йўқ",
+      "actions": {
+        "TASK_CREATED": "Топшириқ яратилди",
+        "TASK_TANISHILDI": "Топшириқ билан танишилди",
+        "TASK_SUBTASK_UPDATED": "Кичик вазифа янгиланди",
+        "TASK_BAJARILDI": "Бажарилди деб белгиланди",
+        "TASK_TASDIQLANDI": "Топшириқ тасдиқланди",
+        "TASK_QAYTARILDI": "Топшириқ қайтарилди",
+        "TASK_BEKOR_QILINDI": "Топшириқ бекор қилинди",
+        "COMMENT_ADDED": "Изоҳ қўшилди"
+      }
+    },
+    "actions": {
+      "title": "Ҳаракатлар",
+      "markDone": "Бажарилди деб белгилаш",
+      "extend": "Муддатни узайтиришни сўраш",
+      "approve": "Тасдиқлаш",
+      "reject": "Қайтариш"
+    },
+    "extendModal": {
+      "title": "Муддатни узайтиришни сўраш",
+      "newMuddat": "Янги муддат",
+      "sabab": "Сабаб",
+      "sababPlaceholder": "Муддатни узайтириш сабабини киритинг...",
+      "notice": "Бу имконият ҳозирча ишлаб чиқилмоқда — сўров юборилмайди.",
+      "submit": "Сўров юбориш"
+    }
+  },
+  "sohalar": {
+    "page": {
+      "title": "Соҳалар ва ходимлар",
+      "newSoha": "Янги соҳа",
+      "newXodim": "Янги ходим"
+    },
+    "grid": {
+      "searchPlaceholder": "Соҳа номи ёки коди бўйича қидириш...",
+      "empty": "Ҳозирча соҳа яратилмаган",
+      "notFound": "Қидирув бўйича соҳа топилмади",
+      "xodimCount": "{{count}} ходим"
+    },
+    "detail": {
+      "selectHint": "Ходимларни кўриш учун рўйхатдан соҳани танланг",
+      "editSoha": "Соҳани таҳрирлаш",
+      "deleteSoha": "Соҳани ўчириш",
+      "deleteConfirm": "\"{{nomi}}\" соҳасини ўчиришни тасдиқлайсизми?",
+      "deleteError": "Соҳани ўчиришда хатолик юз берди",
+      "empty": "Бу соҳада ҳозирча ходим йўқ — янги ходим қўшинг",
+      "xodim": "Ходим",
+      "lavozim": "Лавозим",
+      "faolTopshiriqlar": "Фаол топшириқлар",
+      "holat": "Ҳолат"
+    },
+    "holat": {
+      "FAOL": "Фаол",
+      "NOFAOL": "Нофаол"
+    },
+    "sohaForm": {
+      "titleCreate": "Янги соҳа",
+      "titleEdit": "Соҳани таҳрирлаш",
+      "nomi": "Соҳа номи",
+      "nomiPlaceholder": "Масалан: Молия бўлими",
+      "kodi": "Соҳа коди",
+      "kodiPlaceholder": "Масалан: MB-01",
+      "error": "Соҳани сақлашда хатолик юз берди",
+      "validation": {
+        "nomiRequired": "Соҳа номи мажбурий",
+        "kodiRequired": "Соҳа коди мажбурий"
+      }
+    },
+    "userForm": {
+      "titleCreate": "Янги ходим",
+      "titleEdit": "Ходимни таҳрирлаш",
+      "ismFamiliya": "Исм фамилия",
+      "login": "Логин",
+      "parol": "Парол",
+      "parolKeep": "Ўзгартирмаслик учун бўш қолдиринг",
+      "rol": "Рол",
+      "soha": "Соҳа",
+      "selectSoha": "Соҳани танланг",
+      "lavozim": "Лавозим",
+      "lavozimPlaceholder": "Масалан: Бош мутахассис",
+      "holat": "Ҳолат",
+      "error": "Ходимни сақлашда хатолик юз берди",
+      "validation": {
+        "ismFamiliyaRequired": "Исм фамилия мажбурий",
+        "loginRequired": "Логин мажбурий",
+        "parolMin": "Парол камида 6 та белгидан иборат бўлиши керак",
+        "sohaRequired": "Бажарувчи учун соҳа танланиши шарт"
+      }
+    }
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "app": {
+    "name": "Ислерди орынлаў тизими"
+  },
+  "auth": {
+    "login": {
+      "title": "Ислерди орынлаў тизимине хош келдиңиз",
+      "description": "Тапсырмалар қагазда һәм Telegram чатларында қалмайды — барлығы бир жерде",
+      "loginLabel": "Логин",
+      "parolLabel": "Пароль",
+      "loginPlaceholder": "Логиныңызды киритиң",
+      "parolPlaceholder": "Пароліңызды киритиң",
+      "showPassword": "Парольди көрсетиў",
+      "hidePassword": "Парольди жасырыў",
+      "submit": "Кириў",
+      "submitting": "Күтиң...",
+      "errorInvalid": "Логин яки пароль қəте",
+      "errorInactive": "Есабыңыз актив емес. Администратор менен байланысың",
+      "errorGeneric": "Қəтелик жүз берди. Қайта урынып көриң",
+      "noAccount": "Есабыңыз жоқпа? Администраторыңызға байланысың",
+      "validation": {
+        "loginMin": "Логин кем дегенде 3 белгиден ибарат болыуы керек",
+        "parolMin": "Пароль кем дегенде 6 белгиден ибарат болыуы керек"
+      }
+    }
+  },
+  "common": {
+    "loading": "Жүкленбекте...",
+    "cancel": "Бийкар етиў",
+    "save": "Сақлаў",
+    "send": "Жибериў",
+    "sending": "Жиберилмекте...",
+    "edit": "Өзгертиў",
+    "back": "Артқа",
+    "loadError": "Мағлыўматларды жүклеўде қәтелик жүз берди",
+    "actionError": "Әмелди орынлаўда қәтелик жүз берди",
+    "noResults": "Нәтийже табылмады",
+    "comingSoon": "Бул мүмкиншилик тез арада қосылады"
+  },
+  "dashboard": {
+    "greeting": "Сәлем, {{name}}!",
+    "openTasksCount": "Сизде {{count}} ашық тапсырма бар",
+    "loadError": "Мағлыўматларды жүклеўде қәтелик жүз берди",
+    "needsAttention": "Итибар талап етеди",
+    "needsAttentionEmpty": "Итибар талап ететуғын тапсырмалар жоқ",
+    "onTrack": "Режадағы ислер",
+    "onTrackEmpty": "Режадағы ислер жоқ",
+    "pendingApproval": "Тастыйықлаў күтилмекте",
+    "pendingApprovalEmpty": "Тастыйықлаў күтилип атырған тапсырмалар жоқ",
+    "performanceBanner": "Бул айда өз ўақтында орынланған: {{percent}}",
+    "title": "Басқарыў панели",
+    "stats": {
+      "pendingApproval": "Тастыйықлаў күтилмекте",
+      "overdue": "Мүддети өткен",
+      "dueToday": "Бүгин тамамланады",
+      "onTimeCompletion": "Өз ўақтында орынланған %"
+    },
+    "overdueList": {
+      "title": "Мүддети өткен тапсырмалар",
+      "empty": "Мүддети өткен тапсырмалар жоқ",
+      "remind": "Ескертиў жибериў"
+    },
+    "pendingApprovalList": {
+      "title": "Тастыйықлаў күтилмекте",
+      "empty": "Тастыйықлаў күтилип атырған тапсырмалар жоқ",
+      "approve": "Қабыл етиў",
+      "reject": "Қайтарыў"
+    },
+    "rejectModal": {
+      "title": "Тапсырманы қайтарыў",
+      "reasonLabel": "Қайтарыў себеби",
+      "reasonPlaceholder": "Себепти киритиң...",
+      "reasonRequired": "Себеп киритилиўи шәрт",
+      "cancel": "Бийкар етиў",
+      "submit": "Қайтарыў",
+      "submitting": "Жиберилмекте..."
+    },
+    "sohaRating": {
+      "title": "Сохалар рейтинги",
+      "empty": "Ҳәзирше сохалар жоқ",
+      "bajarilganCount": "Орынланған: {{count}}",
+      "kechiktirilganCount": "Кешиктирилген: {{count}}"
+    },
+    "taskGroup": {
+      "empty": "Тапсырмалар жоқ"
+    },
+    "taskRow": {
+      "open": "Ашыў"
+    },
+    "status": {
+      "YASHIL": "Режада",
+      "SARIQ": "Итибар талап етеди",
+      "QIZIL": "Мүддети өткен",
+      "KOK": "Орынланыўда",
+      "KULRANG": "Бийкар етилген"
+    },
+    "modal": {
+      "close": "Жабыў"
+    }
+  },
+  "nazorat": {
+    "dashboard": {
+      "title": "Назорат панели"
+    },
+    "stats": {
+      "kuzatuvda": "Қадағалаўда",
+      "tekshiruvKutmoqda": "Тексериў күтилмекте",
+      "menBergan": "Мен берген"
+    },
+    "delegationSummary": {
+      "title": "Мениң һуқықларым",
+      "sohaCount": "{{count}} соха",
+      "maxMuhimlik": "Максимал әһмийетлилик",
+      "maxMuddat": "Максимал мүддет",
+      "maxMuddatValue": "{{count}} күн",
+      "obyektRuxsat": "Объект бойынша тапсырма бериў һуқықы",
+      "obyektRuxsatBor": "Бар",
+      "obyektRuxsatYoq": "Жоқ",
+      "empty": "Сизге һәли һуқық берилмеген",
+      "loadError": "Мағлыўматларды жүклеўде қәтелик жүз берди",
+      "sohalar": "Руқсат етилген сохалар"
+    },
+    "supervisedOverdueList": {
+      "title": "Қадағалаўдағы мүддети өткен тапсырмалар",
+      "empty": "Қадағалаўдағы мүддети өткен тапсырмалар жоқ",
+      "remind": "Ескертиў",
+      "escalate": "Эскалация"
+    },
+    "myIssuedTaskList": {
+      "title": "Мен берген тапсырмалар",
+      "empty": "Сиз берген тапсырмалар жоқ"
+    },
+    "eskalatsiyaModal": {
+      "title": "Тапсырманы эскалация қылыў",
+      "izohLabel": "Түсиндирме",
+      "izohPlaceholder": "Түсиндирмени киритиң...",
+      "izohRequired": "Түсиндирме киритилиўи шәрт",
+      "cancel": "Бийкар етиў",
+      "submit": "Жибериў",
+      "submitting": "Жиберилмекте...",
+      "error": "Әмелди орынлаўда қәтелик жүз берди"
+    },
+    "taskActions": {
+      "escalate": "Эскалация"
+    },
+    "taskHeader": {
+      "yaratuvchi": "Жаратыўшы"
+    },
+    "createTaskAlert": "Сиз {{name}} атынан тапсырма бермектесиз",
+    "shoshilinchLocked": "Тек суперадмин ушын"
+  },
+  "delegation": {
+    "page": {
+      "title": "Назорат һуқықлары",
+      "edit": "Өзгертиў",
+      "assign": "Һуқық бериў",
+      "sohaCount": "{{count}} соха",
+      "maxMuhimlik": "Максимал әһмийетлилик",
+      "maxMuddat": "{{count}} күн",
+      "noDelegation": "Һуқық берилмеген",
+      "empty": "НАЗОРАТ пайдаланыўшылар табылмады",
+      "loadError": "Мағлыўматларды жүклеўде қәтелик жүз берди"
+    },
+    "form": {
+      "titleCreate": "Назорат һуқықын белгилеў",
+      "sohalarLabel": "Рухсат етилген сохалар",
+      "sohaSearchPlaceholder": "Соханы излең...",
+      "sohalarRequired": "Кем дегенде бир соханы таңлаң",
+      "muhimlikLabel": "Максимал әһмийетлилик",
+      "muhimlik": {
+        "ODDIY": "Әдетеги",
+        "MUHIM": "Әһмийетли"
+      },
+      "muddatLabel": "Максимал мүддет (күн)",
+      "obyektRuxsatLabel": "Объект бойынша тапсырма бериў һуқықы",
+      "cancel": "Бийкар етиў",
+      "save": "Сақлаў",
+      "saving": "Сақланмақта...",
+      "error": "Сақлаўда қәтелик жүз берди"
+    }
+  },
+  "roles": {
+    "SUPERADMIN": "Суперадмин",
+    "NAZORAT": "Назорат",
+    "BAJARUVCHI": "Орынлаўшы"
+  },
+  "layout": {
+    "nav": {
+      "home": "Бас бет",
+      "allTasks": "Барлық тапсырмалар",
+      "myTasks": "Мениң тапсырмаларым",
+      "sohalar": "Сохалар ҳәм хызметкерлер",
+      "nazoratHuquqlari": "Назорат һуқықлары",
+      "newTask": "Жаңа тапсырма"
+    },
+    "sidebar": {
+      "expand": "Менюды ашыў",
+      "collapse": "Менюды жыйнаў"
+    },
+    "topbar": {
+      "notifications": "Билдириўлер",
+      "userMenu": "Пайдаланыўшы менюсы",
+      "profile": "Профиль",
+      "logout": "Шығыў"
+    },
+    "languageSwitcher": "Интерфейс тили"
+  },
+  "notFound": {
+    "title": "Бет табылмады",
+    "description": "Сиз излеген бет жоқ ямаса басқа мәнзилге көширилген",
+    "home": "Бас бетке қайтыў"
+  },
+  "tasks": {
+    "status": {
+      "YARATILDI": "Жаратылды",
+      "YUBORILDI": "Жиберилди",
+      "TANISHILDI": "Танысылды",
+      "JARAYONDA": "Орынланыўда",
+      "TASDIQ_KUTILMOQDA": "Тастыйықлаў күтилмекте",
+      "QAYTARILDI": "Қайтарылды",
+      "QABUL_QILINDI": "Қабыл етилди",
+      "BEKOR_QILINDI": "Бийкар етилди"
+    },
+    "muhimlik": {
+      "ODDIY": "Әдетеги",
+      "MUHIM": "Әһмийетли",
+      "SHOSHILINCH": "Шуғыл"
+    },
+    "list": {
+      "title": "Тапсырмалар",
+      "filters": "Фильтрлер",
+      "clear": "Тазалаў",
+      "statusLabel": "Жағдай",
+      "allStatuses": "Барлық жағдайлар",
+      "statusEmpty": "Жағдай табылмады",
+      "muhimlikLabel": "Әһмийетлилик",
+      "allMuhimlik": "Барлық дәрежелер",
+      "muhimlikEmpty": "Әһмийетлилик табылмады",
+      "sohaLabel": "Соха",
+      "allSohalar": "Барлық сохалар",
+      "bajaruvchiLabel": "Орынлаўшы",
+      "selectXodim": "Хызметкерди таңлаң",
+      "selectSohaFirst": "Алдын соханы таңлаң",
+      "allTasks": "Барлық тапсырмалар",
+      "empty": "Тапсырмалар табылмады"
+    },
+    "select": {
+      "sohaPlaceholder": "Соханы излең...",
+      "sohaEmpty": "Соха табылмады",
+      "xodimPlaceholder": "Хызметкерди излең...",
+      "noBajaruvchi": "Бул сохада орынлаўшы жоқ",
+      "free": "бос",
+      "activeCount": "{{count}} актив"
+    },
+    "create": {
+      "sarlavha": "Атама",
+      "sarlavhaPlaceholder": "Тапсырма атамасы",
+      "tavsif": "Тәрийп",
+      "tavsifPlaceholder": "Тапсырма тәрийпи (қәлеўге қарай)",
+      "subtasks": "Киши ўазыйпалар",
+      "subtaskPlaceholder": "Банд тексти",
+      "addSubtask": "Банд қосыў",
+      "removeSubtask": "Бандты өшириў",
+      "muddatSana": "Мүддет сәнеси",
+      "muddatVaqt": "Мүддет ўақты",
+      "muhimlik": "Әһмийетлилик дәрежеси",
+      "saveDraft": "Қаралама сақлаў",
+      "submit": "Тапсырманы жибериў",
+      "error": "Тапсырманы жаратыўда қәтелик жүз берди",
+      "validation": {
+        "sarlavhaMin": "Атама кем дегенде 5 белгиден ибарат болыўы керек",
+        "sohaRequired": "Соханы таңлаң",
+        "sohaInvalid": "Соха қәте таңланған",
+        "bajaruvchiRequired": "Орынлаўшыны таңлаң",
+        "bajaruvchiInvalid": "Орынлаўшы қәте таңланған",
+        "muddatRequired": "Мүддет сәнесин киритиң",
+        "muddatPast": "Мүддет бүгиннен бурын болыўы мүмкин емес",
+        "vaqtFormat": "Ўақыт СС:ММ форматында болыўы керек"
+      }
+    },
+    "detail": {
+      "notFound": "Тапсырма табылмады",
+      "forbidden": "Бул тапсырма сизге тийисли емес",
+      "loadError": "Тапсырманы жүклеўде қәтелик жүз берди",
+      "muallif": "Автор",
+      "muddat": "Мүддет",
+      "tanishilgan": "Танысылған",
+      "notTanishilgan": "Танысылмаған",
+      "qaytarishSababi": "Қайтарыў себеби"
+    },
+    "subtasks": {
+      "title": "Киши ўазыйпалар",
+      "empty": "Киши ўазыйпалар жоқ",
+      "updateError": "Киши ўазыйпаны жаңалаў мүмкин болмады"
+    },
+    "comments": {
+      "title": "Түсиндирмелер",
+      "loadError": "Түсиндирмелерди жүклеўде қәтелик жүз берди",
+      "empty": "Ҳәзирше түсиндирмелер жоқ",
+      "label": "Түсиндирме қалдырыў",
+      "placeholder": "Түсиндирмеңизди жазың...",
+      "required": "Түсиндирме бос болыўы мүмкин емес",
+      "sendError": "Түсиндирмени жибериўде қәтелик жүз берди"
+    },
+    "history": {
+      "title": "Тарийх",
+      "loadError": "Тарийхты жүклеўде қәтелик жүз берди",
+      "empty": "Тарийх жазыўлары жоқ",
+      "actions": {
+        "TASK_CREATED": "Тапсырма жаратылды",
+        "TASK_TANISHILDI": "Тапсырма менен танысылды",
+        "TASK_SUBTASK_UPDATED": "Киши ўазыйпа жаңаланды",
+        "TASK_BAJARILDI": "Орынланды деп белгиленди",
+        "TASK_TASDIQLANDI": "Тапсырма тастыйықланды",
+        "TASK_QAYTARILDI": "Тапсырма қайтарылды",
+        "TASK_BEKOR_QILINDI": "Тапсырма бийкар етилди",
+        "COMMENT_ADDED": "Түсиндирме қосылды"
+      }
+    },
+    "actions": {
+      "title": "Ҳәрекетлер",
+      "markDone": "Орынланды деп белгилеў",
+      "extend": "Мүддетти узайтыўды сораў",
+      "approve": "Тастыйықлаў",
+      "reject": "Қайтарыў"
+    },
+    "extendModal": {
+      "title": "Мүддетти узайтыўды сораў",
+      "newMuddat": "Жаңа мүддет",
+      "sabab": "Себеп",
+      "sababPlaceholder": "Мүддетти узайтыў себебин киритиң...",
+      "notice": "Бул мүмкиншилик ҳәзирше ислеп шығылмақта — сораў жиберилмейди.",
+      "submit": "Сораў жибериў"
+    }
+  },
+  "sohalar": {
+    "page": {
+      "title": "Сохалар ҳәм хызметкерлер",
+      "newSoha": "Жаңа соха",
+      "newXodim": "Жаңа хызметкер"
+    },
+    "grid": {
+      "searchPlaceholder": "Соха аты ямаса коды бойынша излеў...",
+      "empty": "Ҳәзирше соха жаратылмаған",
+      "notFound": "Излеў бойынша соха табылмады",
+      "xodimCount": "{{count}} хызметкер"
+    },
+    "detail": {
+      "selectHint": "Хызметкерлерди көриў ушын дизимнен соханы таңлаң",
+      "editSoha": "Соханы өзгертиў",
+      "deleteSoha": "Соханы өшириў",
+      "deleteConfirm": "\"{{nomi}}\" сохасын өшириўди тастыйықлайсызба?",
+      "deleteError": "Соханы өшириўде қәтелик жүз берди",
+      "empty": "Бул сохада ҳәзирше хызметкер жоқ — жаңа хызметкер қосың",
+      "xodim": "Хызметкер",
+      "lavozim": "Лаўазым",
+      "faolTopshiriqlar": "Актив тапсырмалар",
+      "holat": "Жағдай"
+    },
+    "holat": {
+      "FAOL": "Актив",
+      "NOFAOL": "Актив емес"
+    },
+    "sohaForm": {
+      "titleCreate": "Жаңа соха",
+      "titleEdit": "Соханы өзгертиў",
+      "nomi": "Соха аты",
+      "nomiPlaceholder": "Мысалы: Қаржы бөлими",
+      "kodi": "Соха коды",
+      "kodiPlaceholder": "Мысалы: MB-01",
+      "error": "Соханы сақлаўда қәтелик жүз берди",
+      "validation": {
+        "nomiRequired": "Соха аты миндетли",
+        "kodiRequired": "Соха коды миндетли"
+      }
+    },
+    "userForm": {
+      "titleCreate": "Жаңа хызметкер",
+      "titleEdit": "Хызметкерди өзгертиў",
+      "ismFamiliya": "Аты-фамилиясы",
+      "login": "Логин",
+      "parol": "Пароль",
+      "parolKeep": "Өзгертпеў ушын бос қалдырың",
+      "rol": "Роль",
+      "soha": "Соха",
+      "selectSoha": "Соханы таңлаң",
+      "lavozim": "Лаўазым",
+      "lavozimPlaceholder": "Мысалы: Бас қәниге",
+      "holat": "Жағдай",
+      "error": "Хызметкерди сақлаўда қәтелик жүз берди",
+      "validation": {
+        "ismFamiliyaRequired": "Аты-фамилиясы миндетли",
+        "loginRequired": "Логин миндетли",
+        "parolMin": "Пароль кем дегенде 6 белгиден ибарат болыўы керек",
+        "sohaRequired": "Орынлаўшы ушын соха таңланыўы шәрт"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# local Claude Code settings (personal permissions, not shared)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+
+# dependencies / build / secrets (server/ va client/ ichida ham alohida bor)
+node_modules/
+dist/
+.env

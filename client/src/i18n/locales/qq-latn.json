@@ -1,0 +1,399 @@
+{
+  "app": {
+    "name": "Islerdi orınlaw tizimi"
+  },
+  "auth": {
+    "login": {
+      "title": "Islerdi orınlaw tizimine xosh keldińiz",
+      "description": "Tapsırmalar qagazda hám Telegram chatlarında qalmaydı — barlıgı bir jerde",
+      "loginLabel": "Login",
+      "parolLabel": "Parol",
+      "loginPlaceholder": "Loginińizdi kiritiń",
+      "parolPlaceholder": "Parolińizdi kiritiń",
+      "showPassword": "Paroldi kórsetiw",
+      "hidePassword": "Paroldi jasırıw",
+      "submit": "Kiriw",
+      "submitting": "Kútiń...",
+      "errorInvalid": "Login yamasa parol qáte",
+      "errorInactive": "Esabıńız aktiv emes. Administrator menen baylanısıń",
+      "errorGeneric": "Qátelik júz berdi. Qayta urınıp kóriń",
+      "noAccount": "Esabıńız joqpa? Administratorıńızǵa baylanısıń",
+      "validation": {
+        "loginMin": "Login kem degende 3 belgiden ibarat bolıwı kerek",
+        "parolMin": "Parol kem degende 6 belgiden ibarat bolıwı kerek"
+      }
+    }
+  },
+  "common": {
+    "loading": "Júklenbekte...",
+    "cancel": "Biykar etiw",
+    "save": "Saqlaw",
+    "send": "Jiberiw",
+    "sending": "Jiberilmekte...",
+    "edit": "Ózgertiw",
+    "back": "Artqa",
+    "loadError": "Maǵlıwmatlardı júklewde qátelik júz berdi",
+    "actionError": "Ámeldi orınlawda qátelik júz berdi",
+    "noResults": "Nátiyje tabılmadı",
+    "comingSoon": "Bul múmkinshilik tez arada qosıladı"
+  },
+  "dashboard": {
+    "greeting": "Sálem, {{name}}!",
+    "openTasksCount": "Sizde {{count}} ashıq tapsırma bar",
+    "loadError": "Maǵlıwmatlardı júklewde qátelik júz berdi",
+    "needsAttention": "Itibar talap etedi",
+    "needsAttentionEmpty": "Itibar talap etetuǵın tapsırmalar joq",
+    "onTrack": "Rejadaǵı isler",
+    "onTrackEmpty": "Rejadaǵı isler joq",
+    "pendingApproval": "Tastıyıqlaw kútilmekte",
+    "pendingApprovalEmpty": "Tastıyıqlaw kútilip atırǵan tapsırmalar joq",
+    "performanceBanner": "Bul ayda óz waqtında orınlanǵan: {{percent}}",
+    "title": "Basqarıw paneli",
+    "stats": {
+      "pendingApproval": "Tastıyıqlaw kútilmekte",
+      "overdue": "Múddeti ótken",
+      "dueToday": "Búgin tamamlanadı",
+      "onTimeCompletion": "Óz waqtında orınlanǵan %"
+    },
+    "overdueList": {
+      "title": "Múddeti ótken tapsırmalar",
+      "empty": "Múddeti ótken tapsırmalar joq",
+      "remind": "Eskertiw jiberiw"
+    },
+    "pendingApprovalList": {
+      "title": "Tastıyıqlaw kútilmekte",
+      "empty": "Tastıyıqlaw kútilip atırǵan tapsırmalar joq",
+      "approve": "Qabıl etiw",
+      "reject": "Qaytarıw"
+    },
+    "rejectModal": {
+      "title": "Tapsırmanı qaytarıw",
+      "reasonLabel": "Qaytarıw sebebi",
+      "reasonPlaceholder": "Sebepti kiritiń...",
+      "reasonRequired": "Sebep kiritiliwi shárt",
+      "cancel": "Biykar etiw",
+      "submit": "Qaytarıw",
+      "submitting": "Jiberilmekte..."
+    },
+    "sohaRating": {
+      "title": "Sohalar reytingi",
+      "empty": "Házirshe sohalar joq",
+      "bajarilganCount": "Orınlanǵan: {{count}}",
+      "kechiktirilganCount": "Keshiktirilgen: {{count}}"
+    },
+    "taskGroup": {
+      "empty": "Tapsırmalar joq"
+    },
+    "taskRow": {
+      "open": "Ashıw"
+    },
+    "status": {
+      "YASHIL": "Rejede",
+      "SARIQ": "Itibar talap etedi",
+      "QIZIL": "Múddeti ótken",
+      "KOK": "Orınlanıwda",
+      "KULRANG": "Biykar etilgen"
+    },
+    "modal": {
+      "close": "Jabıw"
+    }
+  },
+  "nazorat": {
+    "dashboard": {
+      "title": "Nazorat paneli"
+    },
+    "stats": {
+      "kuzatuvda": "Qadaǵalawda",
+      "tekshiruvKutmoqda": "Tekseriw kútilmekte",
+      "menBergan": "Men bergen"
+    },
+    "delegationSummary": {
+      "title": "Meniń huqıqlarım",
+      "sohaCount": "{{count}} soha",
+      "maxMuhimlik": "Maksimal áhmiyetlilik",
+      "maxMuddat": "Maksimal múddet",
+      "maxMuddatValue": "{{count}} kún",
+      "obyektRuxsat": "Obyekt boyınsha tapsırma beriw huqıqı",
+      "obyektRuxsatBor": "Bar",
+      "obyektRuxsatYoq": "Joq",
+      "empty": "Sizge háli huqıq berilmegen",
+      "loadError": "Maǵlıwmatlardı júklewde qátelik júz berdi",
+      "sohalar": "Ruqsat etilgen sohalar"
+    },
+    "supervisedOverdueList": {
+      "title": "Qadaǵalawdaǵı múddeti ótken tapsırmalar",
+      "empty": "Qadaǵalawdaǵı múddeti ótken tapsırmalar joq",
+      "remind": "Eskertiw",
+      "escalate": "Eskalatsiya"
+    },
+    "myIssuedTaskList": {
+      "title": "Men bergen tapsırmalar",
+      "empty": "Siz bergen tapsırmalar joq"
+    },
+    "eskalatsiyaModal": {
+      "title": "Tapsırmanı eskalatsiya qılıw",
+      "izohLabel": "Túsindirme",
+      "izohPlaceholder": "Túsindirmeni kiritiń...",
+      "izohRequired": "Túsindirme kiritiliwi shárt",
+      "cancel": "Biykar etiw",
+      "submit": "Jiberiw",
+      "submitting": "Jiberilmekte...",
+      "error": "Ámeldi orınlawda qátelik júz berdi"
+    },
+    "taskActions": {
+      "escalate": "Eskalatsiya"
+    },
+    "taskHeader": {
+      "yaratuvchi": "Jaratıwshı"
+    },
+    "createTaskAlert": "Siz {{name}} atınan tapsırma bermektesiz",
+    "shoshilinchLocked": "Tek superadmin ushın"
+  },
+  "delegation": {
+    "page": {
+      "title": "Nazorat huqıqları",
+      "edit": "Ózgertiw",
+      "assign": "Huqıq beriw",
+      "sohaCount": "{{count}} soha",
+      "maxMuhimlik": "Maksimal áhmiyetlilik",
+      "maxMuddat": "{{count}} kún",
+      "noDelegation": "Huqıq berilmegen",
+      "empty": "NAZORAT paydalanıwshılar tabılmadı",
+      "loadError": "Maǵlıwmatlardı júklewde qátelik júz berdi"
+    },
+    "form": {
+      "titleCreate": "Nazorat huqıqın belgilew",
+      "sohalarLabel": "Ruxsat etilgen sohalar",
+      "sohaSearchPlaceholder": "Sohanı izleń...",
+      "sohalarRequired": "Kem degende bir sohanı tańlań",
+      "muhimlikLabel": "Maksimal áhmiyetlilik",
+      "muhimlik": {
+        "ODDIY": "Ádetegi",
+        "MUHIM": "Áhmiyetli"
+      },
+      "muddatLabel": "Maksimal múddet (kún)",
+      "obyektRuxsatLabel": "Obyekt boyınsha tapsırma beriw huqıqı",
+      "cancel": "Biykar etiw",
+      "save": "Saqlaw",
+      "saving": "Saqlanmaqta...",
+      "error": "Saqlawda qátelik júz berdi"
+    }
+  },
+  "roles": {
+    "SUPERADMIN": "Superadmin",
+    "NAZORAT": "Nazorat",
+    "BAJARUVCHI": "Orınlawshı"
+  },
+  "layout": {
+    "nav": {
+      "home": "Bas bet",
+      "allTasks": "Barlıq tapsırmalar",
+      "myTasks": "Meniń tapsırmalarım",
+      "sohalar": "Sohalar hám xızmetkerler",
+      "nazoratHuquqlari": "Nazorat huqıqları",
+      "newTask": "Jańa tapsırma"
+    },
+    "sidebar": {
+      "expand": "Menyudı ashıw",
+      "collapse": "Menyudı jıynaw"
+    },
+    "topbar": {
+      "notifications": "Bildiriwler",
+      "userMenu": "Paydalanıwshı menyusı",
+      "profile": "Profil",
+      "logout": "Shıǵıw"
+    },
+    "languageSwitcher": "Interfeys tili"
+  },
+  "notFound": {
+    "title": "Bet tabılmadı",
+    "description": "Siz izlegen bet joq yamasa basqa mánzilge kóshirilgen",
+    "home": "Bas betke qaytıw"
+  },
+  "tasks": {
+    "status": {
+      "YARATILDI": "Jaratıldı",
+      "YUBORILDI": "Jiberildi",
+      "TANISHILDI": "Tanısıldı",
+      "JARAYONDA": "Orınlanıwda",
+      "TASDIQ_KUTILMOQDA": "Tastıyıqlaw kútilmekte",
+      "QAYTARILDI": "Qaytarıldı",
+      "QABUL_QILINDI": "Qabıl etildi",
+      "BEKOR_QILINDI": "Biykar etildi"
+    },
+    "muhimlik": {
+      "ODDIY": "Ádetegi",
+      "MUHIM": "Áhmiyetli",
+      "SHOSHILINCH": "Shuǵıl"
+    },
+    "list": {
+      "title": "Tapsırmalar",
+      "filters": "Filtrler",
+      "clear": "Tazalaw",
+      "statusLabel": "Jaǵday",
+      "allStatuses": "Barlıq jaǵdaylar",
+      "statusEmpty": "Jaǵday tabılmadı",
+      "muhimlikLabel": "Áhmiyetlilik",
+      "allMuhimlik": "Barlıq dárejeler",
+      "muhimlikEmpty": "Áhmiyetlilik tabılmadı",
+      "sohaLabel": "Soha",
+      "allSohalar": "Barlıq sohalar",
+      "bajaruvchiLabel": "Orınlawshı",
+      "selectXodim": "Xızmetkerdi tańlań",
+      "selectSohaFirst": "Aldın sohanı tańlań",
+      "allTasks": "Barlıq tapsırmalar",
+      "empty": "Tapsırmalar tabılmadı"
+    },
+    "select": {
+      "sohaPlaceholder": "Sohanı izleń...",
+      "sohaEmpty": "Soha tabılmadı",
+      "xodimPlaceholder": "Xızmetkerdi izleń...",
+      "noBajaruvchi": "Bul sohada orınlawshı joq",
+      "free": "bos",
+      "activeCount": "{{count}} aktiv"
+    },
+    "create": {
+      "sarlavha": "Atama",
+      "sarlavhaPlaceholder": "Tapsırma ataması",
+      "tavsif": "Táriyp",
+      "tavsifPlaceholder": "Tapsırma táriypi (qálewge qaray)",
+      "subtasks": "Kishi wazıypalar",
+      "subtaskPlaceholder": "Band teksti",
+      "addSubtask": "Band qosıw",
+      "removeSubtask": "Bandtı óshiriw",
+      "muddatSana": "Múddet sánesi",
+      "muddatVaqt": "Múddet waqtı",
+      "muhimlik": "Áhmiyetlilik dárejesi",
+      "saveDraft": "Qaralama saqlaw",
+      "submit": "Tapsırmanı jiberiw",
+      "error": "Tapsırmanı jaratıwda qátelik júz berdi",
+      "validation": {
+        "sarlavhaMin": "Atama kem degende 5 belgiden ibarat bolıwı kerek",
+        "sohaRequired": "Sohanı tańlań",
+        "sohaInvalid": "Soha qáte tańlanǵan",
+        "bajaruvchiRequired": "Orınlawshını tańlań",
+        "bajaruvchiInvalid": "Orınlawshı qáte tańlanǵan",
+        "muddatRequired": "Múddet sánesin kiritiń",
+        "muddatPast": "Múddet búginnen burın bolıwı múmkin emes",
+        "vaqtFormat": "Waqıt SS:MM formatında bolıwı kerek"
+      }
+    },
+    "detail": {
+      "notFound": "Tapsırma tabılmadı",
+      "forbidden": "Bul tapsırma sizge tiyisli emes",
+      "loadError": "Tapsırmanı júklewde qátelik júz berdi",
+      "muallif": "Avtor",
+      "muddat": "Múddet",
+      "tanishilgan": "Tanısılǵan",
+      "notTanishilgan": "Tanısılmaǵan",
+      "qaytarishSababi": "Qaytarıw sebebi"
+    },
+    "subtasks": {
+      "title": "Kishi wazıypalar",
+      "empty": "Kishi wazıypalar joq",
+      "updateError": "Kishi wazıypanı jańalaw múmkin bolmadı"
+    },
+    "comments": {
+      "title": "Túsindirmeler",
+      "loadError": "Túsindirmelerdi júklewde qátelik júz berdi",
+      "empty": "Házirshe túsindirmeler joq",
+      "label": "Túsindirme qaldırıw",
+      "placeholder": "Túsindirmeńizdi jazıń...",
+      "required": "Túsindirme bos bolıwı múmkin emes",
+      "sendError": "Túsindirmeni jiberiwde qátelik júz berdi"
+    },
+    "history": {
+      "title": "Tariyx",
+      "loadError": "Tariyxtı júklewde qátelik júz berdi",
+      "empty": "Tariyx jazıwları joq",
+      "actions": {
+        "TASK_CREATED": "Tapsırma jaratıldı",
+        "TASK_TANISHILDI": "Tapsırma menen tanısıldı",
+        "TASK_SUBTASK_UPDATED": "Kishi wazıypa jańalandı",
+        "TASK_BAJARILDI": "Orınlandı dep belgilendi",
+        "TASK_TASDIQLANDI": "Tapsırma tastıyıqlandı",
+        "TASK_QAYTARILDI": "Tapsırma qaytarıldı",
+        "TASK_BEKOR_QILINDI": "Tapsırma biykar etildi",
+        "COMMENT_ADDED": "Túsindirme qosıldı"
+      }
+    },
+    "actions": {
+      "title": "Háreketler",
+      "markDone": "Orınlandı dep belgilew",
+      "extend": "Múddetti uzaytıwdı soraw",
+      "approve": "Tastıyıqlaw",
+      "reject": "Qaytarıw"
+    },
+    "extendModal": {
+      "title": "Múddetti uzaytıwdı soraw",
+      "newMuddat": "Jańa múddet",
+      "sabab": "Sebep",
+      "sababPlaceholder": "Múddetti uzaytıw sebebin kiritiń...",
+      "notice": "Bul múmkinshilik házirshe islep shıǵılmaqta — soraw jiberilmeydi.",
+      "submit": "Soraw jiberiw"
+    }
+  },
+  "sohalar": {
+    "page": {
+      "title": "Sohalar hám xızmetkerler",
+      "newSoha": "Jańa soha",
+      "newXodim": "Jańa xızmetker"
+    },
+    "grid": {
+      "searchPlaceholder": "Soha atı yamasa kodı boyınsha izlew...",
+      "empty": "Házirshe soha jaratılmaǵan",
+      "notFound": "Izlew boyınsha soha tabılmadı",
+      "xodimCount": "{{count}} xızmetker"
+    },
+    "detail": {
+      "selectHint": "Xızmetkerlerdi kóriw ushın dizimnen sohanı tańlań",
+      "editSoha": "Sohanı ózgertiw",
+      "deleteSoha": "Sohanı óshiriw",
+      "deleteConfirm": "\"{{nomi}}\" sohasın óshiriwdi tastıyıqlaysızba?",
+      "deleteError": "Sohanı óshiriwde qátelik júz berdi",
+      "empty": "Bul sohada házirshe xızmetker joq — jańa xızmetker qosıń",
+      "xodim": "Xızmetker",
+      "lavozim": "Lawazım",
+      "faolTopshiriqlar": "Aktiv tapsırmalar",
+      "holat": "Jaǵday"
+    },
+    "holat": {
+      "FAOL": "Aktiv",
+      "NOFAOL": "Aktiv emes"
+    },
+    "sohaForm": {
+      "titleCreate": "Jańa soha",
+      "titleEdit": "Sohanı ózgertiw",
+      "nomi": "Soha atı",
+      "nomiPlaceholder": "Mısalı: Qarjı bólimi",
+      "kodi": "Soha kodı",
+      "kodiPlaceholder": "Mısalı: MB-01",
+      "error": "Sohanı saqlawda qátelik júz berdi",
+      "validation": {
+        "nomiRequired": "Soha atı mindetli",
+        "kodiRequired": "Soha kodı mindetli"
+      }
+    },
+    "userForm": {
+      "titleCreate": "Jańa xızmetker",
+      "titleEdit": "Xızmetkerdi ózgertiw",
+      "ismFamiliya": "Atı-familiyası",
+      "login": "Login",
+      "parol": "Parol",
+      "parolKeep": "Ózgertpew ushın bos qaldırıń",
+      "rol": "Rol",
+      "soha": "Soha",
+      "selectSoha": "Sohanı tańlań",
+      "lavozim": "Lawazım",
+      "lavozimPlaceholder": "Mısalı: Bas qánige",
+      "holat": "Jaǵday",
+      "error": "Xızmetkerdi saqlawda qátelik júz berdi",
+      "validation": {
+        "ismFamiliyaRequired": "Atı-familiyası mindetli",
+        "loginRequired": "Login mindetli",
+        "parolMin": "Parol kem degende 6 belgiden ibarat bolıwı kerek",
+        "sohaRequired": "Orınlawshı ushın soha tańlanıwı shárt"
+      }
+    }
+  }
+}

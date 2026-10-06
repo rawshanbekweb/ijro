@@ -1,0 +1,5 @@
+export enum Role {
+  SUPERADMIN = 'SUPERADMIN',
+  NAZORAT = 'NAZORAT',
+  BAJARUVCHI = 'BAJARUVCHI',
+}
