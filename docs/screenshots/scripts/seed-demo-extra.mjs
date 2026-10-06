@@ -1,9 +1,9 @@
 import fs from 'node:fs'
-const API='http://localhost:3000/api'
+const API=process.env.API_URL ?? 'http://localhost:3000/api'
 const j=async(m,p,t,b)=>{const r=await fetch(API+p,{method:m,headers:{'content-type':'application/json',...(t?{authorization:'Bearer '+t}:{})},body:b?JSON.stringify(b):undefined});const x=await r.text();if(!r.ok)throw new Error(p+' '+x);return x?JSON.parse(x):null}
 const login=async(l,p='Demo12345')=>(await j('POST','/auth/login',null,{login:l,parol:p})).accessToken
 const seed=JSON.parse(fs.readFileSync('seed-out.json','utf8'))
-const admin=await login('superadmin','Admin12345')
+const admin=await login(process.env.ADMIN_LOGIN??'superadmin',process.env.ADMIN_PAROL??'Admin12345')
 const sh=await login('sh.toshmatov'), ur=await login('u.raximov')
 const fut=new Date(Date.now()+5*864e5).toISOString()
 const a=await j('POST','/tasks',admin,{sarlavha:'Давлат харидлари бўйича чораклик ҳисобот',tavsif:'III чорак давомида амалга оширилган давлат харидлари таҳлили.',bajaruvchiId:seed.users['sh.toshmatov'],sohaId:seed.soha['MB-01'],muhimlik:'MUHIM',muddat:fut,subtasklar:[{matn:'Шартномалар реестри',tartib:0},{matn:'Таҳлилий жадвал',tartib:1}]})

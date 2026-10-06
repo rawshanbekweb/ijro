@@ -1,5 +1,6 @@
-// Demo/mock data seed via the real API. Usage: node seed-demo.mjs
-const API = 'http://localhost:3000/api'
+// Demo/mock data seed via the real API. Usage: node seed-demo.mjs > seed-out.json
+// Env: API_URL, ADMIN_LOGIN, ADMIN_PAROL (default: lokal server, superadmin/Admin12345)
+const API = process.env.API_URL ?? 'http://localhost:3000/api'
 const PAROL = 'Demo12345'
 
 async function req(method, path, token, body) {
@@ -21,7 +22,7 @@ const at = (days, hour = 18) => {
   return d.toISOString()
 }
 
-const admin = await login('superadmin', 'Admin12345')
+const admin = await login(process.env.ADMIN_LOGIN ?? 'superadmin', process.env.ADMIN_PAROL ?? 'Admin12345')
 
 const sohalarSpec = [
   ['Молия ва бюджет бўлими', 'MB-01'],

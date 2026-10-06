@@ -9,6 +9,9 @@ for (const t of out.tasks) {
   lines.push(`WITH s AS (SELECT id, row_number() OVER (ORDER BY "createdAt") rn, count(*) OVER () c FROM audit_logs WHERE "obyektId"='${t.id}')
 UPDATE audit_logs a SET "createdAt" = now() - interval '${startDays} days' + (interval '${startDays} days' - interval '2 hours') * ((s.rn - 1)::float / greatest(s.c, 2)) FROM s WHERE a.id = s.id;`)
   lines.push(`UPDATE tasks SET "tanishildiAt" = now() - interval '${startDays} days' + interval '3 hours' WHERE id='${t.id}' AND "tanishildiAt" IS NOT NULL;`)
+  lines.push(`UPDATE tasks SET "createdAt" = now() - interval '${startDays} days', "updatedAt" = now() - interval '${startDays} days' WHERE id='${t.id}';`)
+  // topshirilgan topshiriqlar muddatidan 1 kun oldin bajarilgan bo'lsin (o'z vaqtida -> YASHIL)
+  lines.push(`UPDATE tasks SET "bajarildiAt" = LEAST(muddat - interval '1 day', now() - interval '1 hour') WHERE id='${t.id}' AND "bajarildiAt" IS NOT NULL;`)
 }
 lines.push(`WITH s AS (SELECT id, row_number() OVER (PARTITION BY "taskId" ORDER BY "createdAt" DESC) rn FROM comments)
 UPDATE comments c SET "createdAt" = now() - interval '50 minutes' * s.rn * 2 FROM s WHERE c.id = s.id;`)
